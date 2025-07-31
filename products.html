@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>ShopEase - Product Detail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">ShopEase</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html" aria-current="page">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Product Detail Section -->
+  <section class="product-detail-section" aria-label="Product Details">
+    <div class="product-detail-img">
+      <img src="https://images.unsplash.com/photo-1513708927688-890fe8a1df19?auto=format&fit=crop&w=400&q=80" alt="Classic Leather Wallet">
+    </div>
+    <div class="product-detail-info">
+      <h2>Classic Leather Wallet</h2>
+      <div class="price">$29.99</div>
+      <p>
+        Crafted from premium leather, this classic wallet is both stylish and functional. Features multiple card slots, a coin pocket, and RFID protection for your peace of mind.
+      </p>
+      <form>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" aria-label="Select quantity">
+        <button type="submit" class="add-cart-btn">Add to Cart</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2024 ShopEase. All rights reserved.
+  </footer>
+</body>
+</html>
